@@ -1,6 +1,9 @@
 from flask import Flask, request, jsonify
 import base64
 from google.cloud import speech
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 client = speech.SpeechClient()

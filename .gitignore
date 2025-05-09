@@ -1,0 +1,11 @@
+# IDE folders
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+venv/
+
